@@ -14,6 +14,7 @@ config.font = wezterm.font("Menlo")
 config.font_size = 16
 
 config.enable_tab_bar = false
+config.window_close_confirmation = "NeverPrompt"
 
 config.window_decorations = "RESIZE"
 
