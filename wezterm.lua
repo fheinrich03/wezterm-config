@@ -29,7 +29,7 @@ config.background = {
 		width = "100%",
 		-- opacity = 0.7,
 		-- Bild abdunkeln (0.1–0.6; kleiner = dunkler), ggf. auch saturation anpassen
-		hsb = { brightness = 0.15 },
+		hsb = { brightness = 0.1 },
 	},
 }
 
