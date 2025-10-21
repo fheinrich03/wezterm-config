@@ -9,8 +9,7 @@ config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
 
 -- colors
-config.colors = require("cyberdream")
--- config.color_scheme = "Tokyo Night"
+config.color_scheme = "Tokyo Night"
 
 config.font = wezterm.font("Menlo")
 config.font_size = 16
