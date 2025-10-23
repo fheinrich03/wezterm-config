@@ -10,6 +10,9 @@ config.send_composed_key_when_right_alt_is_pressed = true
 
 -- colors
 config.color_scheme = "Tokyo Night"
+config.colors = {
+  cursor_bg = "#fc03ba"
+}
 
 config.font = wezterm.font("Menlo")
 config.font_size = 16
@@ -24,13 +27,13 @@ config.win32_system_backdrop = "Acrylic"
 config.macos_window_background_blur = 30
 
 config.background = {
-	{
-		source = { File = "/Users/fheinrich/.config/wezterm/wallpaper/solo-leveling.jpg" },
-		width = "100%",
-		-- opacity = 0.7,
-		-- Bild abdunkeln (0.1–0.6; kleiner = dunkler), ggf. auch saturation anpassen
-		hsb = { brightness = 0.1 },
-	},
+  {
+    source = { File = "/Users/fheinrich/.config/wezterm/wallpaper/neon-light.jpg" },
+    width = "100%",
+    -- opacity = 0.7,
+    -- Bild abdunkeln (0.1–0.6; kleiner = dunkler), ggf. auch saturation anpassen
+    hsb = { brightness = 0.1 },
+  },
 }
 
 -- and finally, return the configuration to wezterm
